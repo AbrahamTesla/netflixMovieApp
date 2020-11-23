@@ -9,7 +9,7 @@ const AddFavourite = () => {
         height='1em'
         viewBox='0 0 16 16'
         class='bi bi-heart-fill'
-        fill='currentColor'
+        fill='red'
         xmlns='http://www.w3.org/2000/svg'
       >
         <path
