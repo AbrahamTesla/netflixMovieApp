@@ -1,5 +1,7 @@
 ## NetFlix Movie APP
 
+Website: https://dazzling-jennings-e004a8.netlify.app/
+
 Technology Use:
 
 1. Netlify - for live deployment
