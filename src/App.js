@@ -33,9 +33,11 @@ const App = () => {
 
   //Re-rendering the movie list that was stored in local storage using JSON.parse
   useEffect(() => {
-    const movieFavouriteList = JSON.parse(
-      localStorage.getItem("react-movie-app-favourite")
-    );
+    const movieFavouriteList =
+      JSON.parse(
+        // parsing from local storage also handling empty array for initial rendering
+        localStorage.getItem("react-movie-app-favourite")
+      ) || [];
     setFavourites(movieFavouriteList);
   }, []);
 
